@@ -1,0 +1,44 @@
+// Google fonts import
+/*
+-Open Sans
+-Oswald
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+@font-face {
+    display: swap;
+    font-family: 'Interstate';
+    src: url("../font/interstate_fonts/interstate-regular/interstate-regular.otf") format("opentype");
+}
+
+// Map of font familiy
+$font_families : (
+    main_font_family: ('Interstate', sans-serif),
+    secondary_font_family: ('Open Sans', sans-serif),
+);
+
+// Map of font weight
+$light_font_weight : 100;
+$regular_font_weight : 400;
+$medium_font_weight : 600;
+$bold_font_weight : 700;
+$xbold_font_weight : 900;
+
+// Map of palette color
+$palette_color :(
+    white : #ffffff,
+    whiteE3 : #E3E3E3,
+    blueAA : #1E22AA,
+    black23 : #232323,
+    black05 : #000405,
+    black : #000000);
+
+
+// UI Elements.
+@mixin yellow-button {
+    background-color: map_get($palette_color, yellow00);
+    color: map_get($palette_color, white);
+
+
+}

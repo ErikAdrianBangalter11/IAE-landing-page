@@ -1,0 +1,848 @@
+/*
+-Open Sans
+-Oswald
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+@font-face {
+  display: swap;
+  font-family: 'Interstate';
+  src: url("../font/interstate_fonts/interstate-regular/interstate-regular.otf") format("opentype");
+}
+
+.header-container {
+  padding: 5px 15px;
+  background-color: #ffffff;
+}
+
+.header-container .header-cont {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.header-container .header-cont .header-image-content {
+  text-align: left;
+}
+
+.header-container .header-cont .header-image-content .header-image-logo {
+  width: 100%;
+  margin: 0 0 5px;
+  max-width: 60px;
+}
+
+.header-container .header-cont .header-image-content .header-image-title {
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-size: 45px;
+  color: #1E22AA;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+@media only screen and (min-width: 992px) {
+  .header-container {
+    padding: 5px 0;
+  }
+}
+
+.hero-main-container .hero-main-cont {
+  position: relative;
+}
+
+.hero-main-container .hero-main-cont .hero-image-container {
+  position: relative;
+}
+
+.hero-main-container .hero-main-cont .hero-image-container .hero-image {
+  width: 100%;
+}
+
+.hero-main-container .hero-main-cont .hero-image-container .hero-image-cont {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container {
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 30px;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  text-align: right;
+}
+
+.hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content {
+  width: 100%;
+  display: inline-block;
+  border: 5px solid #787878;
+  background-color: #ffffff;
+  max-width: 125px;
+  height: 125px;
+  position: relative;
+}
+
+.hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content .hero-content-description {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 10px;
+  width: 140px;
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-size: 18px;
+  color: #1E22AA;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ffffff), color-stop(#ffffff), color-stop(#ffffff), color-stop(#ffffff), to(#ffffff));
+  background-image: linear-gradient(to right, transparent, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content {
+    max-width: 255px;
+    height: 255px;
+  }
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content .hero-content-description {
+    right: 40px;
+    width: 295px;
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container {
+    padding: 0;
+    margin-left: 60px;
+    max-width: 100%;
+    text-align: center;
+    top: 70%;
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
+  }
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content .hero-content-description {
+    right: 40px;
+    width: 295px;
+  }
+}
+
+.hero-main-container .hero-main-cont .hero-form-container {
+  background-color: #EBEBEB;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.hero-main-container .hero-main-cont .hero-form-container .hero-form-cont {
+  text-align: center;
+}
+
+.hero-main-container .hero-main-cont .hero-form-container .hero-form-cont .form-container {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #EBEBEB;
+  max-width: 340px;
+}
+
+.hero-main-container .hero-main-cont .hero-form-container .hero-form-cont .form-container .form-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  color: #232323;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-main-container .hero-main-cont .hero-form-container {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 15px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-main-container .hero-main-cont .hero-form-container .hero-form-cont {
+    text-align: right;
+  }
+}
+
+.details-program-container {
+  margin: 0;
+}
+
+.details-program-container .details-program-cont {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.details-program-container .details-program-cont .BK_blue_AA {
+  background-color: #1E22AA;
+  margin: 5px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .details-program-container .details-program-cont .BK_blue_AA {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .details-program-container .details-program-cont .no-padd-lg {
+    padding: 0;
+  }
+}
+
+.details-program-container .details-program-cont .detail-program {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 360px;
+  padding: 10px 0;
+  background-color: #1E22AA;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-image {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-image .detail-program-icon {
+  width: 100%;
+  margin-top: 15px;
+  margin-right: 10px;
+  max-width: 35px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content {
+  width: calc(100% - 55px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Interstate", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.36px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-description {
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.96px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-description .detail-program-description-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-fees {
+  margin-top: 5px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-fees .detail-program-link {
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Interstate", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+
+.details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-fees .detail-program-link .detail-program-icon-link {
+  width: 100%;
+  margin-top: -5px;
+  max-width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #FFFFFF;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  outline: 0;
+  position: relative;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .modal-content .modal-header {
+  width: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  position: relative;
+  z-index: 4;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .modal-content .modal-header button.close {
+  color: #4F2582;
+  opacity: 1;
+  font-size: 15px;
+  z-index: 99;
+  margin-top: -10px !important;
+  margin-right: -10px;
+  border: 0px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 31px;
+  height: 31px;
+  background: #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 2px 20px 0px #000000;
+          box-shadow: -1px 2px 20px 0px #000000;
+  padding: 0;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .modal-content .modal-header button.close img {
+  width: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .details-program-container .details-program-cont .detail-program .special-modal-container .modal-content .modal-header button.close {
+    margin-top: -17px !important;
+    margin-right: -13px;
+  }
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .modal-content .modal-header button.close .close {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0 15px;
+  max-width: 450px;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-title {
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  line-height: 22px;
+  line-height: 22px;
+  font-family: "Interstate", sans-serif;
+  font-weight: 700;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-subtitle {
+  text-align: center;
+  font-size: 15px;
+  color: #000201;
+  line-height: 22px;
+  font-family: "Interstate", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form {
+  width: 100%;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .special-modal-flex {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center !important;
+  -webkit-box-align: center !important;
+          align-items: center !important;
+  -ms-flex-pack: justify !important;
+  -webkit-box-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal {
+  margin-top: 10px;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .special-label-title {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #000201;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-family: "Interstate", sans-serif;
+  font-weight: 400;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .special-input {
+  width: 100%;
+  border: 1px solid #707070;
+  padding: 5px;
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000201;
+  line-height: 22px;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .__textarea {
+  font-family: "Interstate", sans-serif;
+  font-weight: 400;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .__select {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  padding: 5px;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .mdInput {
+  width: 48%;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .lgInput {
+  width: 100%;
+}
+
+.details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .button-special-fee-submit {
+  width: 100%;
+  margin: 10px auto 0;
+  display: block;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #003F7B;
+  font-family: "Interstate", sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-dialog {
+    max-width: 600px;
+  }
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #FFFFFF;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  outline: 0;
+  position: relative;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header {
+  width: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  position: relative;
+  z-index: 4;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header button.close {
+  color: #4F2582;
+  opacity: 1;
+  font-size: 15px;
+  z-index: 99;
+  margin-top: -10px !important;
+  margin-right: -10px;
+  border: 0px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 31px;
+  height: 31px;
+  background: #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 2px 20px 0px #000000;
+          box-shadow: -1px 2px 20px 0px #000000;
+  padding: 0;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header button.close img {
+  width: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header button.close {
+    margin-top: -17px !important;
+    margin-right: -13px;
+  }
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header button.close .close {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .modal-content .modal-header button.close .close:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-description {
+  font-family: "Interstate", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin: 5px 0;
+  line-height: 24px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-subtitle {
+  font-family: "Interstate", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 5px 0 10px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .payment-title {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0 0 5px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price {
+  font-family: "Interstate", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price ul {
+  list-style: square;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price ul li {
+  color: #000000;
+  margin-left: -25px;
+}
+
+.details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price ul li span {
+  font-family: "Interstate", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 992px) {
+  .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-subtitle {
+    margin: 10px 0 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .details-program-container {
+    margin: 35px 0;
+  }
+  .details-program-container .details-program-cont .detail-program {
+    padding: 20px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .details-program-container {
+    margin: 35px 0 0;
+  }
+  .details-program-container .details-program-cont .detail-program {
+    padding: 20px 15px;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+.mba-information-container {
+  padding: 10px 15px 25px;
+}
+
+.mba-information-container .mba-information-cont {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.mba-information-container .mba-information-cont .mba-information-content {
+  text-align: center;
+}
+
+.mba-information-container .mba-information-cont .mba-information-content .mba-information-description {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #787878;
+  background-color: #ffffff;
+  max-width: 250px;
+  height: 130px;
+  position: relative;
+}
+
+.mba-information-container .mba-information-cont .mba-information-content .mba-information-description .mba-description {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 15px;
+  width: 260px;
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-size: 18px;
+  color: #1E22AA;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 5px 0;
+  background-color: #ffffff;
+}
+
+.mba-information-container .mba-information-cont .mba-information {
+  width: 100%;
+  margin: 30px auto 0;
+  max-width: 198px;
+}
+
+.mba-information-container .mba-information-cont .mba-information .mba-information-icon {
+  text-align: center;
+}
+
+.mba-information-container .mba-information-cont .mba-information .mba-information-icon .mba-icon {
+  width: 100%;
+  margin-bottom: 15px;
+  max-width: 126px;
+}
+
+.mba-information-container .mba-information-cont .mba-information .mba-information-title {
+  text-align: center;
+  font-family: "Interstate", sans-serif;
+  font-size: 26px;
+  color: #1E22AA;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.mba-information-container .mba-information-cont .mba-information .mba-information-subtitle {
+  text-align: center;
+  font-family: "Interstate", sans-serif;
+  font-size: 26px;
+  color: #000405;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .mba-information-container {
+    padding: 35px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mba-information-container {
+    padding: 35px 0;
+  }
+  .mba-information-container .mba-information-cont {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  .mba-information-container .mba-information-cont .mba-information-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .mba-information-container .mba-information-cont .mba-information-content .mba-information-description {
+    max-width: 355px;
+    height: 220px;
+  }
+  .mba-information-container .mba-information-cont .mba-information-content .mba-information-description .mba-description {
+    left: 30px;
+    width: 380px;
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .mba-information-container .mba-information-cont .xl-padd-right {
+    padding-right: 50px;
+  }
+}
+
+.line-divisor {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1170px;
+  background-color: #787878;
+  height: 1px;
+}
+
+.mba-you-container {
+  padding: 25px 15px;
+}
+
+.mba-you-container .mba-you-cont {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.mba-you-container .mba-you-cont .mba-you-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Interstate", sans-serif;
+  font-size: 26px;
+  color: #1E22AA;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.44px;
+}
+
+.mba-you-container .mba-you-cont .mba-you {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.mba-you-container .mba-you-cont .mba-you .mba-you-content {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #787878;
+  background-color: #ffffff;
+  max-width: 210px;
+  height: 150px;
+  position: relative;
+}
+
+.mba-you-container .mba-you-cont .mba-you .mba-you-content .mba-you-content-description {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 40px;
+  width: 220px;
+  text-align: left;
+  font-family: "Interstate", sans-serif;
+  font-size: 25px;
+  color: #000405;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 5px 0;
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 992px) {
+  .mba-you-container {
+    padding: 35px 0;
+  }
+  .mba-you-container .mba-you-cont .mba-you-title {
+    font-size: 39px;
+    line-height: 39px;
+    letter-spacing: -0.66px;
+  }
+  .mba-you-container .mba-you-cont .mba-you .mba-you-content {
+    max-width: 195px;
+  }
+  .mba-you-container .mba-you-cont .mba-you .mba-you-content .mba-you-content-description {
+    left: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mba-you-container .mba-you-cont .mba-you .mba-you-content .mba-you-content-description {
+    left: 30px;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
