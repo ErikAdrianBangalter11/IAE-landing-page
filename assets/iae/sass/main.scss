@@ -8,14 +8,21 @@
 
 @font-face {
     display: swap;
-    font-family: 'Interstate';
-    src: url("../font/interstate_fonts/interstate-regular/interstate-regular.otf") format("opentype");
+    font-family: 'Gotham Book';
+    src: url("../fonts/Gotham_Book.ttf") format("truetype");
+}
+
+@font-face {
+    display: swap;
+    font-family: 'Gotham Medium';
+    src: url("../fonts/Gotham_Medium.ttf") format("truetype");
 }
 
 // Map of font familiy
 $font_families : (
-    main_font_family: ('Interstate', sans-serif),
+    main_font_family: ('Gotham Medium', sans-serif),
     secondary_font_family: ('Open Sans', sans-serif),
+    third_font_family: ('Gotham Book', sans-serif),
 );
 
 // Map of font weight

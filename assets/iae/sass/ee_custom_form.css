@@ -5,8 +5,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @font-face {
   display: swap;
-  font-family: 'Interstate';
-  src: url("../font/interstate_fonts/interstate-regular/interstate-regular.otf") format("opentype");
+  font-family: 'Gotham Book';
+  src: url("../fonts/Gotham_Book.ttf") format("truetype");
+}
+
+@font-face {
+  display: swap;
+  font-family: 'Gotham Medium';
+  src: url("../fonts/Gotham_Medium.ttf") format("truetype");
 }
 
 form {

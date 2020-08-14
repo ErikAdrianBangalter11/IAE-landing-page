@@ -5,12 +5,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @font-face {
   display: swap;
-  font-family: 'Interstate';
-  src: url("../font/interstate_fonts/interstate-regular/interstate-regular.otf") format("opentype");
+  font-family: 'Gotham Book';
+  src: url("../fonts/Gotham_Book.ttf") format("truetype");
+}
+
+@font-face {
+  display: swap;
+  font-family: 'Gotham Medium';
+  src: url("../fonts/Gotham_Medium.ttf") format("truetype");
 }
 
 .header-container {
-  padding: 5px 15px;
+  padding: 5px 12px;
   background-color: #ffffff;
 }
 
@@ -32,7 +38,7 @@
 
 .header-container .header-cont .header-image-content .header-image-title {
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 45px;
   color: #1E22AA;
   font-weight: 400;
@@ -98,7 +104,7 @@
   right: 10px;
   width: 140px;
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 18px;
   color: #1E22AA;
   font-weight: 400;
@@ -128,13 +134,14 @@
 
 @media only screen and (min-width: 1200px) {
   .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container {
-    padding: 0;
-    margin-left: 60px;
     max-width: 100%;
     text-align: center;
     top: 70%;
     -webkit-transform: translate(-50%, -70%);
             transform: translate(-50%, -70%);
+  }
+  .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content {
+    margin-left: 110px;
   }
   .hero-main-container .hero-main-cont .hero-image-container .hero-image-cont .hero-image-content-container .hero-content .hero-content-description {
     right: 40px;
@@ -243,7 +250,7 @@
 .details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-title {
   text-align: left;
   text-transform: uppercase;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 24px;
   color: #ffffff;
   font-weight: 400;
@@ -253,7 +260,7 @@
 
 .details-program-container .details-program-cont .detail-program .detail-program-content .detail-program-description {
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 24px;
   color: #ffffff;
   font-weight: 700;
@@ -278,7 +285,7 @@
   text-align: left;
   text-decoration: underline;
   cursor: pointer;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Book", sans-serif;
   font-size: 12px;
   color: #ffffff;
   font-weight: 400;
@@ -385,7 +392,7 @@
   color: #000000;
   line-height: 22px;
   line-height: 22px;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 700;
 }
 
@@ -394,7 +401,7 @@
   font-size: 15px;
   color: #000201;
   line-height: 22px;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 400;
   margin-top: 10px;
 }
@@ -428,7 +435,7 @@
   color: #000201;
   line-height: 22px;
   margin-bottom: 5px;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 400;
 }
 
@@ -437,7 +444,7 @@
   border: 1px solid #707070;
   padding: 5px;
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #000201;
@@ -445,7 +452,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .special-modal-container .special-modal-cont .special-modal-form .input-group-special-modal .__textarea {
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 400;
 }
 
@@ -474,7 +481,7 @@
   text-transform: uppercase;
   border-radius: 5px;
   background-color: #003F7B;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-weight: 700;
   padding: 20px;
   cursor: pointer;
@@ -577,7 +584,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-description {
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 18px;
   color: #000000;
   font-weight: 600;
@@ -586,7 +593,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .flexible-paymens-subtitle {
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 16px;
   color: #000000;
   font-weight: 400;
@@ -595,6 +602,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .payment-title {
+  font-family: "Gotham Book", sans-serif;
   font-size: 27px;
   font-weight: 700;
   line-height: 32px;
@@ -602,7 +610,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price {
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -618,7 +626,7 @@
 }
 
 .details-program-container .details-program-cont .detail-program .modal-flexible-payments .flexible-paymens-container .payment .price ul li span {
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -683,9 +691,9 @@
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 15px;
-  width: 260px;
+  width: 280px;
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 18px;
   color: #1E22AA;
   font-weight: 700;
@@ -712,7 +720,7 @@
 
 .mba-information-container .mba-information-cont .mba-information .mba-information-title {
   text-align: center;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 26px;
   color: #1E22AA;
   font-weight: 400;
@@ -721,7 +729,7 @@
 
 .mba-information-container .mba-information-cont .mba-information .mba-information-subtitle {
   text-align: center;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 26px;
   color: #000405;
   font-weight: 400;
@@ -752,8 +760,8 @@
     height: 220px;
   }
   .mba-information-container .mba-information-cont .mba-information-content .mba-information-description .mba-description {
-    left: 30px;
-    width: 380px;
+    left: 25px;
+    width: 400px;
     font-size: 26px;
     line-height: 38px;
   }
@@ -783,7 +791,7 @@
 .mba-you-container .mba-you-cont .mba-you-title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Medium", sans-serif;
   font-size: 26px;
   color: #1E22AA;
   font-weight: 400;
@@ -802,7 +810,7 @@
   border: 1px solid #787878;
   background-color: #ffffff;
   max-width: 210px;
-  height: 150px;
+  height: 160px;
   position: relative;
 }
 
@@ -811,10 +819,10 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: 40px;
-  width: 220px;
+  left: 20px;
+  width: 230px;
   text-align: left;
-  font-family: "Interstate", sans-serif;
+  font-family: "Gotham Book", sans-serif;
   font-size: 25px;
   color: #000405;
   font-weight: 400;
@@ -842,7 +850,38 @@
 
 @media only screen and (min-width: 1200px) {
   .mba-you-container .mba-you-cont .mba-you .mba-you-content .mba-you-content-description {
-    left: 30px;
+    left: 20px;
   }
+}
+
+.learning-journey-container {
+  padding: 0 10px 25px;
+}
+
+.learning-journey-container .learning-journey-cont {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.learning-journey-container .learning-journey-cont .learning-journey-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 26px;
+  color: #1E22AA;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.44px;
+  margin-bottom: 25px;
+}
+
+.learning-journey-container .learning-journey-cont .learning-journey-description {
+  text-align: center;
+  font-family: "Gotham Book", sans-serif;
+  font-size: 20px;
+  color: #000405;
+  font-weight: 400;
+  line-height: 24px;
 }
 /*# sourceMappingURL=stylesheet.css.map */

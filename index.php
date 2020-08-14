@@ -106,7 +106,13 @@
                         <div class="hero-content">
 
                             <div class="hero-content-description">
-                                Más que una maestría, un viaje de transformación
+                                Más que 
+                                <br>
+                                una maestría, 
+                                <br>
+                                un viaje de 
+                                <br>
+                                transformación
                             </div>
 
                         </div>
@@ -1081,6 +1087,56 @@
 
     </div>
 
-</body>
+    <!-- Learning journey -->
+    <div class="learning-journey-container">
+
+        <div class="container-fluid">
+
+            <div class="learning-journey-cont">
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <div class="learning-journey-title">
+                            APRENDIZAJES CLAVE
+                        </div>
+
+                        <div class="learning-journey-description">
+                            El MBA Online de IAE&nbsp;Business&nbsp;School apunta&nbsp;a&nbsp;la&nbsp;preparación de&nbsp;líderes&nbsp;responsables, capaces de 
+                            desempeñarse en&nbsp;entornos&nbsp;locales&nbsp;y&nbsp;globales en la era post-Covid. 
+                            <br>
+                            <br>
+                            Diseñado&nbsp;sobre&nbsp;el&nbsp;modelo que&nbsp;distingue al MBA presencial&nbsp;del&nbsp;IAE, 
+                            esta&nbsp;Maestría&nbsp;en&nbsp;línea te permite:
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+
+                        <div class="learning">
+
+                            <div class="learning-icon">
+
+                                <img src="assets/iae/img/learning.svg" alt="" class="learning-icon-image">
+
+                            </div>
+
+                            <div class="learning-description">
+                                Ser un líder eficiente y responsable
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </html>

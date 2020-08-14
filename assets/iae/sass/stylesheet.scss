@@ -2,7 +2,7 @@
 
 //HEADER
 .header-container {
-    padding: 5px 15px;
+    padding: 5px 12px;
     background-color: #ffffff;
 
     .header-cont {
@@ -128,14 +128,13 @@
                 @media only screen and (min-width: 1200px) {
 
                     .hero-image-content-container {
-                        padding: 0;
-                        margin-left: 60px;
                         max-width: 100%;
                         text-align: center;
                         top: 70%;
                         transform: translate(-50%, -70%);
 
                         .hero-content {
+                            margin-left: 110px;
 
                             .hero-content-description {
                                 right: 40px;
@@ -296,7 +295,7 @@
                         text-align: left;
                         text-decoration: underline;
                         cursor: pointer;
-                        font-family: map-get($font_families, main_font_family);
+                        font-family: map-get($font_families, third_font_family);
                         font-size: 12px;
                         color: map-get($palette_color, white);
                         font-weight: $regular_font_weight;
@@ -729,7 +728,7 @@
                     top: 50%;
                     transform: translateY(-50%);
                     left: 15px;
-                    width: 260px;
+                    width: 280px;
                     text-align: left;
                     font-family: map-get($font_families, main_font_family);
                     font-size: 18px;
@@ -808,8 +807,8 @@
                     height: 220px;
     
                     .mba-description {
-                        left: 30px;
-                        width: 380px;
+                        left: 25px;
+                        width: 400px;
                         font-size: 26px;
                         line-height: 38px;
     
@@ -867,17 +866,17 @@
                 border: 1px solid #787878;
                 background-color: #ffffff;
                 max-width: 210px;
-                height: 150px;
+                height: 160px;
                 position: relative;
 
                 .mba-you-content-description {
                     position: absolute;
                     top: 50%;
                     transform: translateY(-50%);
-                    left: 40px;
-                    width: 220px;
+                    left: 20px;
+                    width: 230px;
                     text-align: left;
-                    font-family: map-get($font_families, main_font_family);
+                    font-family: map-get($font_families, third_font_family);
                     font-size: 25px;
                     color: map-get($palette_color, black05);
                     font-weight: $regular_font_weight;
@@ -932,7 +931,7 @@
                 .mba-you-content {
     
                     .mba-you-content-description {
-                        left: 30px;
+                        left: 20px;
     
                     }
     
@@ -940,6 +939,42 @@
     
             }
     
+        }
+
+    }
+
+}
+
+//LEARNING JOURNEY
+.learning-journey-container {
+    padding: 0 10px 25px;
+
+    .learning-journey-cont {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1170px;
+
+        .learning-journey-title {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: map-get($font_families, main_font_family);
+            font-size: 26px;
+            color: map-get($palette_color, blueAA);
+            font-weight: $regular_font_weight;
+            line-height: 30px;
+            letter-spacing: -0.44px;
+            margin-bottom: 25px;
+
+        }
+
+        .learning-journey-description {
+            text-align: center;
+            font-family: map-get($font_families, third_font_family);
+            font-size: 20px;
+            color: map-get($palette_color, black05);
+            font-weight: $regular_font_weight;
+            line-height: 24px;
+
         }
 
     }
